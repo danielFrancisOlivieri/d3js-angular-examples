@@ -1,4 +1,4 @@
-<mat-drawer-container fullscreen>
+<mat-drawer-container class="container" fullscreen>
     <mat-drawer mode="side" opened="true">
         <mat-menu ></mat-menu>
         <a mat-menu-item *ngFor="let item of examples" [routerLink]="item.route" routerLinkActive="active">{{ item.title }}</a>

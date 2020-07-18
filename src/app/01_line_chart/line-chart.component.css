@@ -6,7 +6,7 @@
 .axis line {
     fill: none;
     stroke: #000;
-    shape-rendering: crispEdges;
+    
 }
 
 .axis-title {
@@ -22,6 +22,24 @@
 
 .line {
     fill: none;
-    stroke: steelblue;
-    stroke-width: 1.5px;
+    stroke: #BA1B1D;
+    stroke-width: 3.5px;
+}
+
+.buster {
+    stroke: blue;
+}
+
+.buster:hover {
+    stroke: orange;
+}
+
+.new {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    
+}
+
+.whole {
+    background-color: black;
 }

@@ -5,3 +5,7 @@ h1 {
 mat-drawer-content {
     padding: 20px;
 }
+
+.container {
+    background-color: #F7F4F3;
+}
